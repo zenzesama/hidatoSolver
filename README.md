@@ -9,9 +9,9 @@ Hidato is a logic puzzle where you fill a grid with consecutive numbers that con
 **Example:**
 ```
 Given:          Solution:
-[1][ ][ ]      [1][2][3]
-[ ][ ][5]  →   [8][7][5]
-[9][ ][ ]      [9][6][4]
+[1][ ][ ]      [1][3][4]
+[ ][ ][5]  →   [2][6][5]
+[9][ ][ ]      [9][8][7]
 ```
 
 ## Features
