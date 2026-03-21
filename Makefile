@@ -1,13 +1,12 @@
 CXX = g++
-TARGET = hidato
-SRC = algo.cpp
-#FLTK_FLAGS := $(shell fltk-config --cxxflags --ldflags)
+TARGET = hidato_solver
+SRC = hidato.cpp
+FLTK_FLAGS := $(shell fltk-config --cxxflags --ldflags)
 
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-#	$(CXX) $(SRC) -o $(TARGET) $(FLTK_FLAGS)
-	$(CXX) $(SRC) -o $(TARGET)
+	$(CXX) $(SRC) -o $(TARGET) $(FLTK_FLAGS)
 
 clean:
 	rm -f $(TARGET)
