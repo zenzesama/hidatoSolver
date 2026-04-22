@@ -96,9 +96,13 @@ The solver uses a **backtracking algorithm** with the following approach:
 - No honeycomb grid support
 
 ## Planned improvements:
-- [ ] Solver optimizations for larger grids
-- [ ] Honeycomb grid support
-- [ ] Timer and statistics
+~~- [ ] Solver optimizations for larger grids~~
+
+~~- [ ] Honeycomb grid support~~
+
+~~- [ ] Timer and statistics~~
+
+I ain't adding anything more to this, c++ make my mind go boom.
 
 
 Created as an educational project to demonstrate:
